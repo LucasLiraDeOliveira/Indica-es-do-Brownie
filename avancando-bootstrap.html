@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática aula 11</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header></header>
+
+    <section class="container-fluid">
+        <h2 class="text-center bg-body-secondary p-2">Algumas indicações de prache dos meus gostos pessoais (Carousel)
+        </h2>
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/nerdcast-rpg.png" class="d-block w-100" alt="folder nerdcast cyberpunk">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="text-warning">Nerdcasts RPG</h3>
+                        <p>São sagas de RPG jogadas pelo pessoal do Nerdcast. Conteúdo muito bem editado e muito
+                            divertido!</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/one-piece.png" class="d-block w-100" alt="Wallpaper one piece">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="text-warning">One Piece</h3>
+                        <p>Esse é um anime com bom desenvolvimento e consegue lhe levar a ter diversas emoções! É mangá
+                            mais vendido no Japão.</p>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <img src="img/solo-leveling.png" class="d-block w-100" alt="Solo Leveling Player folder">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3 class="text-warning">Solo Leveling Player</h3>
+                        <p>Um dos quadrinhos coreanos mais bem sucedidos. Predecessor de diversas tendências dos
+                            quadrinhos. Nele pode-se ver ver diversas cenas fluidas para leitura vertical!</p>
+                    </div>
+                </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <h2 class="text-center bg-body-secondary p-3">Indicações de músicas (Cards)</h2>
+
+        <div class="row row-cols-1 row-cols-md-3 g-4 bg-secondary-subtle">
+            <div class="col">
+                <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">草東沒有派對 No Party For Cao Dong</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.youtube.com/watch?v=j2311FZWoFQ"
+                                target="_blank">Música: 山海 Wayfarer</a></h5>
+                        <p class="card-text">Uma banda de rock chinês que possui diversos sucessos empougantes!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">21 Savage</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.youtube.com/watch?v=U4mADkt6o-M"
+                                target="_blank">Música: redrum</a></h5>
+                        <p class="card-text">Um dos expoentes do rap americano, veio nesse início de 2024 com mais um
+                            sucesso.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card-header">麒麟 (QiLin)</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="" target="_blank">Música: 早安 (ZaoAn)</a></h5>
+                        <p class="card-text">Rapper chinês que conduz o público com um flow de arrepiar.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-danger mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Sorriso maroto</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.youtube.com/watch?v=4-uQCFvjKUA"
+                                target="_blank">Música: Dependente</a></h5>
+                        <p class="card-text">Um dos maiores sucessos do Sorriso Maroto. Não tem uma pessoa que escute
+                            essa música e não se sinta apaixonado.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Ángela Aguilar</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="" target="_blank">Música: La Llorona</a></h5>
+                        <p class="card-text">Essa é um dos clássicos da música mexicana, que está sendo interpretado
+                            pela cantora Ángela Aguilar</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card-header">GAI周延 (ZhouYan)</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.youtube.com/watch?v=rVv-WBulc8s"
+                                target="_blank">Música: 烈火戰馬 (LieHuoZhanMa)</a></h5>
+                        <p class="card-text">Nessa performance contagiante, o cantor GAI conduz o público em um
+                            compilado de alguns dos seus maiores sucessos!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-light mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Jung Kook ft. USHER</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.youtube.com/watch?v=O1d2DYZZrek" target="_blank"
+                                style="color: black;">Música: Standing next to you</a></h5>
+                        <p class="card-text">A versão original já er aum enorme sucesso, mas o acréscimo do cantor e
+                            dançarino USHER deu um toque especial a essa múscia que contagia a todos e nos leva a dançar
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                    <div class="card-header">That Mexican OT ft. (Paul Wall & Drodi)</div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="https://www.youtube.com/watch?v=tvmUrOSahsc"
+                                target="_blank">Música: Johnny Dang</a></h5>
+                        <p class="card-text">Nosso cawboy mexicano vem mais uma vez arrebentando com mais um sucesso!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bg-body-tertiary text-center text-lg-start">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 DEV Lucas Oliveira:
+            <a class="text-body" class="btn btn-primary" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">Para ver mais</a>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Mais dicas (Modal)</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Caso queiram mais dicas, segue lá no perfil!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Continuar no site</button>
+                <a type="button" href="https://www.instagram.com/lucas_oliveira/" target="_blank" class="btn btn-primary">Ver mais dicas</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>
